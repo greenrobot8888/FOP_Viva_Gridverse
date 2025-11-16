@@ -3,15 +3,14 @@ public class V01Q03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Please enter the number of inquaries (1-50): ");
         int T = input.nextInt();
         //The number of inquiries, T, will be between 1 and 50. 
-        if(T>=1&&T<=10){ 
+        if(T>=1 && T<=10){ 
         for(int d=1; d<=T;d++){
              
-        System.out.print("Please enter the Height (1-9): ");
+
         int H = input.nextInt();
-        System.out.print("Please enter the Style (A/P): ");
+
         String S = input.next();
         //the number of H will be 1-9 or else its invalid
         if(H>=1&&H<=9){
