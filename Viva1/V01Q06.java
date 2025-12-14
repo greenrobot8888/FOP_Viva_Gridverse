@@ -1,4 +1,3 @@
-package exercise6;
 import java.util.Scanner;
 
 public class V01Q06 {
