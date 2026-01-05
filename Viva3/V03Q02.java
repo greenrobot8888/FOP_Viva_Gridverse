@@ -1,4 +1,6 @@
-package com.guild.roles;
+package com.guild.roles.RoleTest;
+
+import com.guild.roles.Role.Role;
 
 public class RoleTest {
 
